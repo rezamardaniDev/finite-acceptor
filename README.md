@@ -27,12 +27,11 @@ The script includes a function `read_transition_file(file_path)` to read transit
 
 To use the script, create an instance of the `FiniteAutomaton` class with the necessary parameters, and interactively test input strings.
 
-```python
-python script_name.py
+```bash
+python main.py
 The script prompts the user to enter a string and outputs whether the string is accepted or not, along with the sequence of visited states.
 
 File Structure
-script_name.py: The main Python script containing the FiniteAutomaton class and the main() function for interactive testing.
+main.py: The main Python script containing the FiniteAutomaton class and the main() function for interactive testing.
 transitions.txt: Example file containing transition information.
 Feel free to modify the automaton parameters and transition file to suit your specific use case.
-
